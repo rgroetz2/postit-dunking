@@ -11,6 +11,9 @@ Test your aim and timing in this fast-paced throwing game. You have 20 seconds t
 ### Objective
 Score as many points as possible by successfully dunking crumpled post-its into the office bin within 20 seconds.
 
+<img width="973" height="720" alt="image" src="https://github.com/user-attachments/assets/ee8b391a-41b9-44cb-9fdc-c43cd9153ba5" />
+
+
 ### Game Duration
 - **20 seconds** per game
 - The timer starts counting down when you click "Start Game"
