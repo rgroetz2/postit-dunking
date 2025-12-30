@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Post-It Dunking Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎯 Virtual Post-It Dunking</h1>
+        </header>
+
+        <div class="game-container">
+            <div class="game-info">
+                <div class="scoreboard">
+                    <h3>Score</h3>
+                    <div id="scoreboard"></div>
+                </div>
+                <div class="game-status">
+                    <div class="timer-display">
+                        <div style="font-size: 2em; font-weight: bold; color: #667eea; text-align: center; margin-bottom: 10px;">
+                            Time: <span id="timer">20</span>s
+                        </div>
+                    </div>
+                    <div id="startButtonContainer" style="text-align: center; margin-bottom: 15px;">
+                        <button id="startButton" style="padding: 15px 40px; font-size: 18px; font-weight: bold; background: #667eea; color: white; border: none; border-radius: 8px; cursor: pointer; box-shadow: 0 4px 6px rgba(0,0,0,0.2); transition: background 0.3s;">
+                            Start Game
+                        </button>
+                    </div>
+                    <div class="instructions-text">
+                        <p><strong>How to play:</strong></p>
+                        <p>Click and hold near the player (X) to hold the post-it</p>
+                        <p>Move mouse to aim, release to throw!</p>
+                        <p style="margin-top: 10px; font-size: 12px; color: #666;">
+                            <strong>Points:</strong> Green = 1 | Yellow = 2 | Red = 3
+                        </p>
+                        <div id="colorInfo"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="canvas-wrapper">
+                <canvas id="gameCanvas" width="750" height="338"></canvas>
+                <div id="gameOverOverlay" class="game-over-overlay" style="display: none;">
+                    <div class="game-over-text">GAME OVER</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

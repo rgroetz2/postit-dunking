@@ -1,0 +1,17 @@
+{
+  "name": "virtual-postit-dunking",
+  "version": "1.0.0",
+  "description": "A browser-based single-player Post-It dunking game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["game", "multiplayer", "postit", "dunking"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1"
+  }
+}
+
